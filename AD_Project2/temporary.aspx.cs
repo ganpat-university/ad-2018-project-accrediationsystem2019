@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace AD_Project2
+{
+    public partial class temporary : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if(Session["currentUser"] != null)
+            {
+                TextBox1.Text = Session["currentUser"].ToString();
+            }
+            else
+            {
+                TextBox1.Text = "Temporary";
+            }
+        }
+    }
+}
