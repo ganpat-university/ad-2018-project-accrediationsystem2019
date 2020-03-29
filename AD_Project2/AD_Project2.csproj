@@ -74,9 +74,9 @@
     <Content Include="css\ApplicationSubmission.css" />
     <Content Include="css\logincss.css" />
     <Content Include="css\loginutil.css" />
+    <Content Include="css\mainstyle.css" />
     <Content Include="css\Registration.css" />
     <Content Include="css\scss-files.txt" />
-    <Content Include="css\style.css" />
     <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
@@ -96,6 +96,9 @@
     <Content Include="img\call-to-action-bg.jpg" />
     <Content Include="img\checked.gif" />
     <Content Include="img\1.jpg" />
+    <Content Include="img\home.PNG" />
+    <Content Include="img\i11.png" />
+    <Content Include="img\i2.PNG" />
     <Content Include="img\img1.jpg" />
     <Content Include="img\favicon.png" />
     <Content Include="img\hero-bg.jpg" />
@@ -108,7 +111,6 @@
     <Content Include="img\team-3.jpg" />
     <Content Include="img\team-4.jpg" />
     <Content Include="img\unchecked.gif" />
-    <Content Include="index.html" />
     <Content Include="js\ApplicationSubmission.js" />
     <Content Include="js\login.js" />
     <Content Include="js\main.js" />
@@ -141,6 +143,12 @@
     <Content Include="page5.aspx" />
     <Content Include="page6.aspx" />
     <Content Include="register.aspx" />
+    <Content Include="ScreenShots\login.PNG" />
+    <Content Include="ScreenShots\home.png" />
+    <Content Include="ScreenShots\Register.png" />
+    <Content Include="ScreenShots\ApplicationResult.png" />
+    <Content Include="ScreenShots\form.png" />
+    <Content Include="ScreenShots\UserApplication.png" />
     <Content Include="temp.aspx" />
     <Content Include="temporary.aspx" />
     <Content Include="UserApplication.aspx" />
@@ -365,7 +373,6 @@
     <Content Include="fonts\montserrat\montserrat-v12-latin-900.ttf" />
     <Content Include="fonts\montserrat\montserrat-v12-latin-900.woff" />
     <Content Include="fonts\montserrat\montserrat-v12-latin-900.woff2" />
-    <None Include="packages.config" />
     <Content Include="vendor\bootstrap\css\bootstrap-grid.css.map" />
     <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css.map" />
     <Content Include="vendor\bootstrap\css\bootstrap-reboot.css.map" />
@@ -380,6 +387,7 @@
     <Content Include="scss\layouts\main.scss" />
     <Content Include="scss\layouts\responsive.scss" />
     <Content Include="scss\style.scss" />
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -387,9 +395,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="PDF\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>

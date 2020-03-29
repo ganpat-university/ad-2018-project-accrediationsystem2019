@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8" />
-  <title>NAARC accrediation System</title>
+  <title>NAAC accrediation System</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>  
 
   <!-- Favicons -->
@@ -22,7 +22,7 @@
   <link href="lib/animate/animate.min.css" rel="stylesheet"/>
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/mainstyle.css" rel="stylesheet"/>
     <style>
         .TextBox1Css{
             border:none;

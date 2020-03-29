@@ -4,7 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>
+        Result
+    </title>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -15,7 +17,7 @@
     <form id="form1" runat="server">
         <div class="container">
   <h2>Result: </h2>
-  <div class="alert alert-success">
+  <div class="alert alert-info">
       <strong>Welcome !</strong> <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
       <br /><br />          
       <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>

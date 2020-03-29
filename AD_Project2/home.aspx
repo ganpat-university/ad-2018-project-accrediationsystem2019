@@ -4,8 +4,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8" />
-  <title>NAARC accrediation System</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>    
+  <title>NAAC accrediation System</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>        
+  <meta content="" name="keywords"/>
+  <meta content="" name="description"/>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet"/>
 
@@ -15,9 +17,11 @@
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
   <link href="lib/animate/animate.min.css" rel="stylesheet"/>
-
+   <link href="css/mainstyle.css" rel="stylesheet" />
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet"/>    
+  <style>
+
+  </style>
 </head>
 <body>
     <form id="form1" runat="server">

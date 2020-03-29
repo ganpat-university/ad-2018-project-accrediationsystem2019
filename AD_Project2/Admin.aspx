@@ -10,7 +10,6 @@
     <form id="form1" runat="server">
         <h2>Welcome to admin portal.</h2>        
          
-
     </form>
 </body>
 </html>
