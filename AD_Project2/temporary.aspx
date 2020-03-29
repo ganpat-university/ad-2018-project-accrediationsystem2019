@@ -5,9 +5,7 @@
 <head runat="server">
     <meta charset="utf-8" />
   <title>NAARC accrediation System</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <meta content="" name="keywords"/>
-  <meta content="" name="description"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>  
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon"/>
@@ -37,6 +35,7 @@
             text-align: center;
             font-weight: bold;
         }
+    </style>
     </style>
 </head>
 <body>

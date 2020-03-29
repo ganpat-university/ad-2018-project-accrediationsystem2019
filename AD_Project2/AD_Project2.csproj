@@ -99,21 +99,9 @@
     <Content Include="img\img1.jpg" />
     <Content Include="img\favicon.png" />
     <Content Include="img\hero-bg.jpg" />
-    <Content Include="img\icons\favicon.ico" />
     <Content Include="img\logo.png" />
+    <Content Include="img\naac.jpeg" />
     <Content Include="img\p1.png" />
-    <Content Include="img\portfolio\app1.jpg" />
-    <Content Include="img\portfolio\app2.jpg" />
-    <Content Include="img\portfolio\app3.jpg" />
-    <Content Include="img\portfolio\card1.jpg" />
-    <Content Include="img\portfolio\card2.jpg" />
-    <Content Include="img\portfolio\card3.jpg" />
-    <Content Include="img\portfolio\logo1.jpg" />
-    <Content Include="img\portfolio\logo2.jpg" />
-    <Content Include="img\portfolio\logo3.jpg" />
-    <Content Include="img\portfolio\web1.jpg" />
-    <Content Include="img\portfolio\web2.jpg" />
-    <Content Include="img\portfolio\web3.jpg" />
     <Content Include="img\signup-bg.jpg" />
     <Content Include="img\team-1.jpg" />
     <Content Include="img\team-2.jpg" />
@@ -153,6 +141,7 @@
     <Content Include="page5.aspx" />
     <Content Include="page6.aspx" />
     <Content Include="register.aspx" />
+    <Content Include="temp.aspx" />
     <Content Include="temporary.aspx" />
     <Content Include="UserApplication.aspx" />
     <Content Include="vendor\animate\animate.css" />
@@ -275,6 +264,13 @@
     </Compile>
     <Compile Include="register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="temp.aspx.cs">
+      <DependentUpon>temp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="temp.aspx.designer.cs">
+      <DependentUpon>temp.aspx</DependentUpon>
     </Compile>
     <Compile Include="temporary.aspx.cs">
       <DependentUpon>temporary.aspx</DependentUpon>

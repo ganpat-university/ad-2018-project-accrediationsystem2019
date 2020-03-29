@@ -33,10 +33,18 @@ namespace AD_Project2
             else
             {
                 reader.Close();
-                cmd = new SqlCommand("insert into login values" + "('" + name + "', '" + password + "')", con);
+                cmd = new SqlCommand("insert into login values" + "('" + name + "', '" + password + "', '"  + 0 + "')", con);
                 cmd.ExecuteNonQuery();
                 cmd = new SqlCommand("insert into ApplicationResultTable values" + "('" + name + "', '" + 0 + "')", con);
                 cmd.ExecuteNonQuery();
+                //cmd = new SqlCommand("select * from login where UserId = " + name,con);                                
+                cmd = new SqlCommand(temp, con);
+                reader = cmd.ExecuteReader();
+                if(reader.Read())
+                {
+                    Response.Write("Id is: " + reader["id"]);
+                    cmd = new SqlCommand("insert into ResumeTable values" + "('" + reader["Id"] + "', '" + 0 + "')", con);                    
+                }
                 Response.Write("Successfully inserted!");
                 Response.Redirect("login.aspx");
             }

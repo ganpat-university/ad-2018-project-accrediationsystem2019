@@ -19,26 +19,10 @@
     <form id="form1" runat="server">
    
  <div class="container register-form">
-            <div class="form">
-                <div class="note">
-                    <p></p>
-                </div>
-
-                <div class="form-content">
-               
-                <div class="container">
-                  <ul class="pagination">
-                        <li><a href="page1.aspx">prev</a></li>
-                        <li><a href="page1.aspx">1</a></li>
-                        <li><a href="page2.aspx">2</a></li>                        
-                        <li><a href="page3.aspx">3</a></li>
-                        <li><a href="page4.aspx">4</a></li>
-                        <li><a href="page5.aspx">5</a></li>
-                        <li><a href="page6.aspx">6</a></li>  
-                        <li ><a href="page3.aspx">next</a></li>
-</ul>
-                    <br></br>
-
+     <h3>Page2 of 6</h3>
+            <div class="form">                
+                
+                <div class="form-content">                               
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
