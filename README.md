@@ -1,6 +1,6 @@
 # Accrediation System
 
-![Home page](AD_Project2/img/home.png)
+![Home page](https://github.com/Neelrayal/AccrediationSystem/blob/master/AD_Project2/img/home.PNG)
 
 > This project is for my learning purpose, I made this project for being comfortable with git, gitthub and markdown.
 
